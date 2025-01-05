@@ -35,7 +35,7 @@ public class PrimeCheckTest {
     @Test
     public void testNonPrimes() {
         /* ToDo: insert a test here */
-        int[] notPrimeNumbers = {4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25};
+        int[] notPrimeNumbers = {4, 6, 9, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25, 27, 33};
             for (int x = 0; x < notPrimeNumbers.length; x++) {
                 assertEquals("Number at position " + x + " is not a prime number", false, PrimeCheck.isPrime(notPrimeNumbers[x]));
             }
